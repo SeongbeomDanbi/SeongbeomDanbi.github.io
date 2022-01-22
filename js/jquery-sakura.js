@@ -128,6 +128,6 @@
     };
 }(jQuery));
 
-function alertTest(){
-    alert('test');
-}
+// function alertTest(){
+//     alert('test');
+// }
