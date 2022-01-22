@@ -127,3 +127,7 @@
         requestAnimationFrame(petalCreator);
     };
 }(jQuery));
+
+function alertTest(){
+    alert('test');
+}
