@@ -53,7 +53,7 @@
         var defaults = {
             blowAnimations: ['blow-soft-left', 'blow-medium-left', 'blow-hard-left', 'blow-soft-right', 'blow-medium-right', 'blow-hard-right'],
             className: 'sakura',
-            fallSpeed: 3,
+            fallSpeed: 1,
             maxSize: 14,
             minSize: 9,
             newOn: 300,
@@ -66,7 +66,6 @@
         var documentHeight = $(document).height();
         var documentWidth = $(document).width();
         var sakura = $('<div class="' + options.className + '" />');
-
         // Set the overflow-x CSS property on the body to prevent horizontal scrollbars.
         $('body').css({ 'overflow-x': 'hidden' });
 
@@ -111,9 +110,9 @@
                     height: size,
                     left: startPosLeft,
                     'margin-top': startPosTop,
-                    width: size
+                    width: size,
                 })
-                .appendTo('body');
+                .appendTo('.slide-image');
         };
 
 
@@ -127,7 +126,3 @@
         requestAnimationFrame(petalCreator);
     };
 }(jQuery));
-
-// function alertTest(){
-//     alert('test');
-// }

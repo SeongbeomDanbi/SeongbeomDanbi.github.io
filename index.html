@@ -37,23 +37,77 @@
 
 		<!-- 눈내리기 -->
 
-		<!--test1-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Skin CSS -->
     	<!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
         <!-- <link href="css/skin/light-teal/light-teal-reverse-navbar.css" rel="stylesheet" media="screen"> -->
       	<!-- <link href="css/skin/pattern/pattern-1.css" rel="stylesheet" media="screen"> -->
+				<!-- jQuery -->
+    	<!-- <script src="js/jquery-1.11.1.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+				<!-- Pace -->
+        <script src="js/pace/pace.min.js"></script>
+    	<!-- Bootstrap -->
+    	<script src="js/bootstrap/bootstrap.js"></script>
+        <!-- Modernizr -->
+        <script src="js/modernizr/modernizr.js"></script>
+        <!-- Device JS -->
+        <script src="js/devicejs/device.js"></script>
+        <!-- TinyNav -->
+        <script src="js/tinynav/tinynav.min.js"></script>
+        <!-- SmoothScroll -->
+        <script src="js/smoothscroll/jquery.smooth-scroll.js"></script>
+        <!-- Flexslider -->
+        <script src="js/flexslider/jquery.flexslider.js"></script>
+        <!-- Sticky -->
+        <script src="js/sticky/jquery.sticky.js"></script>
+        <!-- Waypoint -->
+        <script src="js/waypoint/jquery.waypoints.min.js"></script>
+        <!-- DoubleTapToGo -->
+        <script src="js/jquery-ui-widget/jquery.ui.widget.js"></script>
+        <script src="js/jquery-doubletaptogo/jquery.dcd.doubletaptogo.js"></script>
+        <!-- Vide -->
+        <script src="js/vide/jquery.vide.js"></script>
+        <!-- Stellar -->
+        <script src="js/stellar/jquery.stellar.js"></script>
+        <!-- Masonry -->
+        <script src="js/masonry/masonry.pkgd.min.js"></script>
+        <!-- Countdown -->
+        <script src="js/countdown/jquery.plugin.js"></script>
+        <script src="js/countdown/jquery.countdown.js"></script>
+        <!-- Magnific Popup -->
+        <script src="js/magnific-popup/jquery.magnific-popup.js"></script>
+        <!-- Owl Carousel -->
+        <script src="js/owlcarousel/owl.carousel.js"></script>
+        <!-- Google Map -->
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXWJbesu0SUgeQNwr5m89w2ZTw4cuWOtU"></script> -->
+        <!-- <script src="js/markerlabel/markerwithlabel.js"></script> -->
+        <!-- RSVP -->
+        <!-- <script src="js/rsvp/rsvp.js"></script> -->
+
+        <!-- Custom Core Script -->
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- <script type="text/javascript" src="js/map-script.js"></script> -->
+        <!-- Custom Additional Script -->
+        <script type="text/javascript" src="js/main-slider-fade.js"></script>
+		<script src="js/jquery.scrolldepth.min.js"></script>
+
 		<link rel="stylesheet" href="css/jquery-sakura.css">
 		<script type="text/javascript" src="js/jquery-sakura.js"></script>
-		<script>
-			$(window).load(function () {
-			   $('body').sakura();
+			<script>
+			jQuery(function() {
+  				jQuery.scrollDepth();
+			});
+
+			$(window).load(function() {
+				$('body').sakura();
 			});
 		</script>
 
 	</head>
 
-	<body class="outside-bottom-bar-page">
+	<body class="outside-bottom-bar-page" onclick="alertTest()">
+
+
     	<!--PRELOADER-->
         <div id="preloader">
 
@@ -95,7 +149,7 @@
                                     	<h1>성범 & 단비</h1>
                                     </div>
                                     <div id="banner-date">
-                                    	2022. 04. 09 (토) 오후 03시 40분</br>
+                                    	2022. 04. 09 (토) 오후 03시 52분</br>
 										SK리더스뷰 4층 JK아트컨벤션
                                     </div>
 
@@ -114,7 +168,7 @@
   			<ul class="slides">
     			<li>
                 	<!-- SLIDE IMAGE -->
-                	<div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(./images/title.jpg); background-position:top center">
+                	<div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(./images/title.jpg); background-position:top center;">
                     </div>
 
                     <!-- SLIDE OVERLAY -->
@@ -616,59 +670,5 @@ SK리더스뷰 4층 JK아트컨벤션<br />
 
            </footer>
 
-		<!-- jQuery -->
-    	<!-- <script src="js/jquery-1.11.1.min.js"></script> -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-				<!-- Pace -->
-        <script src="js/pace/pace.min.js"></script>
-    	<!-- Bootstrap -->
-    	<script src="js/bootstrap/bootstrap.js"></script>
-        <!-- Modernizr -->
-        <script src="js/modernizr/modernizr.js"></script>
-        <!-- Device JS -->
-        <script src="js/devicejs/device.js"></script>
-        <!-- TinyNav -->
-        <script src="js/tinynav/tinynav.min.js"></script>
-        <!-- SmoothScroll -->
-        <script src="js/smoothscroll/jquery.smooth-scroll.js"></script>
-        <!-- Flexslider -->
-        <script src="js/flexslider/jquery.flexslider.js"></script>
-        <!-- Sticky -->
-        <script src="js/sticky/jquery.sticky.js"></script>
-        <!-- Waypoint -->
-        <script src="js/waypoint/jquery.waypoints.min.js"></script>
-        <!-- DoubleTapToGo -->
-        <script src="js/jquery-ui-widget/jquery.ui.widget.js"></script>
-        <script src="js/jquery-doubletaptogo/jquery.dcd.doubletaptogo.js"></script>
-        <!-- Vide -->
-        <script src="js/vide/jquery.vide.js"></script>
-        <!-- Stellar -->
-        <script src="js/stellar/jquery.stellar.js"></script>
-        <!-- Masonry -->
-        <script src="js/masonry/masonry.pkgd.min.js"></script>
-        <!-- Countdown -->
-        <script src="js/countdown/jquery.plugin.js"></script>
-        <script src="js/countdown/jquery.countdown.js"></script>
-        <!-- Magnific Popup -->
-        <script src="js/magnific-popup/jquery.magnific-popup.js"></script>
-        <!-- Owl Carousel -->
-        <script src="js/owlcarousel/owl.carousel.js"></script>
-        <!-- Google Map -->
-        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXWJbesu0SUgeQNwr5m89w2ZTw4cuWOtU"></script> -->
-        <!-- <script src="js/markerlabel/markerwithlabel.js"></script> -->
-        <!-- RSVP -->
-        <!-- <script src="js/rsvp/rsvp.js"></script> -->
-
-        <!-- Custom Core Script -->
-        <script type="text/javascript" src="js/script.js"></script>
-        <!-- <script type="text/javascript" src="js/map-script.js"></script> -->
-        <!-- Custom Additional Script -->
-        <script type="text/javascript" src="js/main-slider-fade.js"></script>
-				<script src="js/jquery.scrolldepth.min.js"></script>
-<script>
-jQuery(function() {
-  jQuery.scrollDepth();
-});
-</script>
 	</body>
 </html>
