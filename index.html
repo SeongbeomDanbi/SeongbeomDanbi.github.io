@@ -45,14 +45,15 @@
 		<link rel="stylesheet" href="css/jquery-sakura.css">
 		<script src="js/jquery-sakura.js"></script>
 		<script>
-			$(window).load(function () {
-			   $('#ttt').sakura();
+			$(document).ready(function () {
+				alert("안녕");
+			   $('body').sakura();
 			});
 		</script>
 	</head>
 
 	<body class="outside-bottom-bar-page" onclick="alertTest()">
-		<div style="position: absolute; width: 500px; height: 500px; z-index: 9999999; border: 1px solid red" id="ttt"></div>
+		<div id="ttt"></div>
 
     	<!--PRELOADER-->
         <div id="preloader">
@@ -95,7 +96,7 @@
                                     	<h1>성범 & 단비</h1>
                                     </div>
                                     <div id="banner-date">
-                                    	2022. 04. 09 (토) 오후 03시 47분</br>
+                                    	2022. 04. 09 (토) 오후 03시 49분</br>
 										SK리더스뷰 4층 JK아트컨벤션
                                     </div>
 
